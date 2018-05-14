@@ -2,8 +2,8 @@
   <div>
     <div class="words">
       <div class="word" v-for="(word, index) in words" :key="index">
-        <input type="checkbox" v-model="word.checked">
-        {{ word.text }}
+        <input :id="'word-' + index" type="checkbox" v-model="word.checked">
+        <label :for="'word-' + index">{{ word.text }}</label>
       </div>
     </div>
     <div class="action">
