@@ -1,0 +1,16 @@
+{
+  "name": "array-filter-visual",
+  "version": "0.0.1",
+  "description": "A vue-cli powered tool for filtering an array of words visually",
+  "main": "visual.vue",
+  "dependencies": {
+    "copy-to-clipboard": "^3.0.8",
+    "core-js": "^2.5.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Isaac Lyman",
+  "license": "MIT"
+}
